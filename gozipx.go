@@ -62,5 +62,4 @@ func main() {
 	}
 
 	fmt.Printf("文件已成功压缩为: %s\n", zipFileName)
-	fmt.Printf("原始文件 %s 已成功删除\n", newFileName)
 }
