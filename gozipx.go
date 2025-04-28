@@ -16,7 +16,7 @@ func main() {
 	// 文件路径
 	srcFile := "rtthread.bin"
 	// 新的文件名
-	newFileName := fmt.Sprintf("rtthread_%s.bin", currentTime)
+	newFileName := fmt.Sprintf("bms_fw_%s.bin", currentTime)
 
 	// 重命名文件
 	err := os.Rename(srcFile, newFileName)
