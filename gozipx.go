@@ -61,13 +61,6 @@ func main() {
 		return
 	}
 
-	// 删除原始文件
-	err = os.Remove(newFileName)
-	if err != nil {
-		fmt.Printf("删除文件失败: %v\n", err)
-		return
-	}
-
 	fmt.Printf("文件已成功压缩为: %s\n", zipFileName)
 	fmt.Printf("原始文件 %s 已成功删除\n", newFileName)
 }
